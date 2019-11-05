@@ -1,1 +1,1 @@
-# AUTOMATE_YOUR_BROWSER
+Runs through terminal easily ;)
