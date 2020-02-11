@@ -30,7 +30,7 @@ driver.find_element_by_name('btnK').click()
 driver.quit()
 
 #FIREFOX BROWSER TEST
-driver = webdriver.Firefox()  #Don't forget to install gecko driver (required)
+driver = webdriver.Firefox()  #Don't forget to install gecko driver anb tell the path to it on the laptop (required)
 driver.get('https://google.com')
 driver.find_element_by_name('q').send_keys('Python is awesome')
 wait = WebDriverWait(driver, 10)
