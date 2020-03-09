@@ -37,4 +37,5 @@ wait = WebDriverWait(driver, 10)
 element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 
 driver.find_element_by_name('btnK').click()
+driver.close()
 driver.quit()
