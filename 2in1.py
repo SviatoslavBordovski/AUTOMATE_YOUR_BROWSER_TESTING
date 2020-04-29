@@ -23,7 +23,7 @@ driver.find_element_by_name('q').send_keys('Python is awesome')
 wait = WebDriverWait(driver, 10)
 element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 
-#Click me, geeez
+#Click me, geeez!
 driver.find_element_by_name('btnK').click()
 
 #Take care, sweety!
