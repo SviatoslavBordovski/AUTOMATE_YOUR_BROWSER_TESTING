@@ -5,9 +5,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 
-#FIREFOX BROWSER TEST
-
-driver = webdriver.Firefox(executable_path='your\path\geckodriver')  #Don't forget to install gecko driver anb tell the path to it on the laptop (required)
+#Install geckodriver and tell the path to it on the laptop like in the example below (required)
+driver = webdriver.Firefox(executable_path='/home/incognito/Desktop/chromedriverlinux/chromedriver')
 
 #Where do we go?
 driver.get('https://google.com')
