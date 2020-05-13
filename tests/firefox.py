@@ -1,3 +1,10 @@
+frm selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.support import expected_conditions as EC
+
 #FIREFOX BROWSER TEST
 
 driver = webdriver.Firefox()  #Don't forget to install gecko driver anb tell the path to it on the laptop (required)
@@ -9,4 +16,3 @@ element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 driver.find_element_by_name('btnK').click()
 driver.close()
 driver.quit()
-© 2020 GitHub, Inc.
