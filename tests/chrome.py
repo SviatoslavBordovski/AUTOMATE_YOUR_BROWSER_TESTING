@@ -5,9 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 
-#CHROME BROWSER TEST
-
-#Tell the path to chromedriver on your computer (required)
+#Tell the path to chromedriver on your laptop like in the example below (required)
 driver = webdriver.Chrome("/home/sb/Desktop/chromedriverlinux/chromedriver")
 
 #Lets set browser window size
