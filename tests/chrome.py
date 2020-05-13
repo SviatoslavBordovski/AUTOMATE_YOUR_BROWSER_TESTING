@@ -27,4 +27,5 @@ element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 driver.find_element_by_name('btnK').click()
 
 #Take care, sweety!
+driver.close()
 driver.quit()
