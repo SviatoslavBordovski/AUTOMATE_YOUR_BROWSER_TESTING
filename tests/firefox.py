@@ -18,11 +18,11 @@ driver.get('https://google.com')
 driver.find_element_by_name('q').send_keys('Python is a programming language')
 wait = WebDriverWait(driver, 10)
 
-#Click find on the button 'Google search'
+#Click the button 'Google search' to find the requested text
 element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 driver.find_element_by_name('btnK').click()
 
 #Finish test
-print('Firefox UI Test completed!')
+print('Firefox UI test completed!')
 driver.close()
 driver.quit()
