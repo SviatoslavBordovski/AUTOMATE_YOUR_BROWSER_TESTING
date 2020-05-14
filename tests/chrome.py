@@ -6,7 +6,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 
 #Tell the path to chromedriver on your laptop like in the example below (required)
-driver = webdriver.Chrome("/home/sb/Desktop/chromedriverlinux/chromedriver")
+driver = webdriver.Chrome('/home/sb/Desktop/chromedriverlinux/chromedriver')
 
 #Lets set browser window size
 driver.set_window_size(1980,1080)
@@ -24,6 +24,7 @@ element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 #Click me, geeez!
 driver.find_element_by_name('btnK').click()
 
-#Take care, sweety!
+#Finish test
+print('Chrome UI test completed!')
 driver.close()
 driver.quit()
