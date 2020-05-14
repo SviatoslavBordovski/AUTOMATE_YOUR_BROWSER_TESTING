@@ -8,6 +8,9 @@ from selenium.webdriver.support import expected_conditions as EC
 #Install geckodriver and tell the path to it on the laptop like in the example below (required)
 driver = webdriver.Firefox(executable_path='/home/incognito/Desktop/chromedriverlinux/chromedriver')
 
+#Lets set browser window size
+driver.set_window_size(1980,1080)
+
 #Where do we go?
 driver.get('https://google.com')
 
