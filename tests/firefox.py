@@ -6,7 +6,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 
 #Install geckodriver and tell the path to it on the laptop like in the example below (required)
-driver = webdriver.Firefox(executable_path='/home/incognito/Desktop/chromedriverlinux/chromedriver')
+driver = webdriver.Firefox(executable_path='/home/incognito/Downloads/drivers/geckodriver')
 
 #Lets set browser window size
 driver.set_window_size(1980,1080)
@@ -23,6 +23,6 @@ element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 driver.find_element_by_name('btnK').click()
 
 #Finish test
-print('Test completed!')
+print('Firefox UI Test completed!')
 driver.close()
 driver.quit()
