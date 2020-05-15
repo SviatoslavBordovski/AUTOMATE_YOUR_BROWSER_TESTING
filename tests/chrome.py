@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 #Tell the path to chromedriver on your laptop like in the example below (required)
 driver = webdriver.Chrome('/home/sb/Desktop/chromedriverlinux/chromedriver')
 
-#Lets set browser window size
+#Lets set browser window size for test run
 driver.set_window_size(1980,1080)
 
 #Where we go?
