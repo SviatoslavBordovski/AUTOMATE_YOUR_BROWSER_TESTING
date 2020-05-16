@@ -11,7 +11,7 @@ driver = webdriver.Firefox(executable_path='/home/incognito/Downloads/drivers/ge
 #Lets set browser window size
 driver.set_window_size(1980,1080)
 
-#What website should we open?
+#What website in the browser should we open?
 driver.get('https://google.com')
 
 #Find the input field on the page and type the text that should be found
