@@ -15,7 +15,7 @@ driver.set_window_size(1980,1080)
 driver.get('https://google.com')
 
 #Find the input field on the page and type the text that should be found
-driver.find_element_by_name('q').send_keys('Python is a programming language')
+driver.find_element_by_name('q').send_keys('Python is a fantastic programming language')
 wait = WebDriverWait(driver, 10)
 
 #Click the button 'Google search' to find the requested text
