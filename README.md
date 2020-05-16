@@ -5,9 +5,11 @@
   <h2>UI tests in several browsers</h2>
   
   <div>
-  <p>UI tests are the most important tests for the SQA Engineer and web developer since they are giving the opportunity to understand the general. It is very important to understand how <code>UI tests</code> should be written properly to run the tests smoothly. I am learning how to make those tests nore efficiently day by day.</p>
+  <p>UI tests are the most important tests for the SQA Engineer and web developer since they are giving the opportunity to understand the general. It is very important to understand how <code>UI tests</code> should be written properly to run the tests smoothly. I am learning how to make those tests more efficiently day by day.
+  </p>
   <br>
   <h3>Content</h3>
+  
   <ol>
     <li>Chrome</li>
     <li>Firefox</li>
