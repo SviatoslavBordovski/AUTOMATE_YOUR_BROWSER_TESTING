@@ -11,7 +11,7 @@ driver = webdriver.Chrome('/home/sb/Desktop/chromedriverlinux/chromedriver')
 #Lets set browser window size for test run
 driver.set_window_size(1980,1080)
 
-#What website should we open?
+#What website in the browser should we open?
 driver.get('https://google.com')
 
 #What do we find and type?
