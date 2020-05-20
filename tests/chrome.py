@@ -14,7 +14,7 @@ driver.set_window_size(1980,1080)
 #What website in the browser should we open?
 driver.get('https://google.com')
 
-#What do we find and type?
+#What do we want to find?
 driver.find_element_by_name('q').send_keys('Python is a fantastic programming language')
 
 #Oh wait! Element on the webpage should be clickable, so we need to wait for a while ...
