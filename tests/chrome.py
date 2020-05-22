@@ -17,7 +17,7 @@ driver.get('https://google.com')
 #What do we want to find?
 driver.find_element_by_name('q').send_keys('Python is a programming language')
 
-#Oh wait! Element on the webpage should be clickable, so we need to wait for a while...
+#Oh wait! Element on the webpage should be clickable, so we need to wait a moment
 wait = WebDriverWait(driver, 5)
 element = wait.until(EC.element_to_be_clickable((By.NAME, 'btnK')))
 
