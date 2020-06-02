@@ -9,7 +9,9 @@
     <br>
   <p>It is very important to understand how <code>UI tests</code> should be written properly to run the tests smoothly. I am learning how to make those tests more efficiently day by day.
   </p>
+  
   <br>
+  
   <h3>Content:</h3>
   
   <ol>
