@@ -1,7 +1,7 @@
 <html>
   
   <body>
-  
+
   <h2>UI tests in several browsers</h2>
   
   <div>
