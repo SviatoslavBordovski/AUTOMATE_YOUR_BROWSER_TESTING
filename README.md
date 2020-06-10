@@ -7,7 +7,7 @@
   <div>
   <p>UI tests are the most important tests for SQA Engineer and web developer since they are giving the opportunity to understand the general coverage of the project and receive quick feedback about last UI/UX changes.</p>
     <br>
-  <p>It is very important to understand how <code>UI tests</code> should be written properly to run the tests smoothly. I am learning how to make those tests more efficiently day by day.</p>
+  <p>It is very important to understand how <code>UI tests</code> should be written properly to run the tests smoothly. I am learning on how to make those tests more efficiently day by day.</p>
   
   <br>
   
