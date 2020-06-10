@@ -19,7 +19,7 @@
     <li>Opera</li>
   </ol>
   
-  <p>Check out how it runs in this <code>50 sec</code> video https://youtu.be/_dGkL8_I2BQ</p>
+  <p>Check out how test runs in this <code>50 sec</code> video https://youtu.be/_dGkL8_I2BQ</p>
   </div>
   
   </body>
