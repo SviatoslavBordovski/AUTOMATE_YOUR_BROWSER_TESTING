@@ -3,7 +3,7 @@
   <body>
 
   <h2>UI tests in several web browsers</h2>
- 
+
   <div>
   <p>UI tests are the most important tests for SQA Engineer and web developer since they are giving the opportunity to understand the general coverage of the project and receive quick feedback about the last UI/UX changes.</p>
     <br>
