@@ -1,7 +1,6 @@
 <html>
   
   <body>
-
   <h2>UI tests in several web browsers</h2>
 
   <div>
