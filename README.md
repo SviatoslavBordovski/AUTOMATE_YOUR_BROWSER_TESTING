@@ -9,13 +9,13 @@
   <p>It is important to understand how <code>UI tests</code> should be written properly for running the tests smoothly. I am learning on how to make those tests more efficiently day by day.</p>
   
   <h3>Content:</h3>
- 
+
   <ol>
     <li>Chrome</li>
     <li>Firefox</li>
     <li>Opera</li>
   </ol>
- 
+
   <p>Check out how test easily runs in this <code>50 sec</code> video https://youtu.be/_dGkL8_I2BQ</p>
   </div>
   
